@@ -13,6 +13,6 @@ public class StagingController {
         //String timestamp = System.getProperty("staging.timestamp");
 	String timestamp = 
 	    new java.text.SimpleDateFormat("MM/dd/yyyy h:mm:ss a").format(new Date());
-        return "Application was staged at: " + timestamp;
+        return "It is raining heavily. Application was staged at: " + timestamp;
     }
 }
